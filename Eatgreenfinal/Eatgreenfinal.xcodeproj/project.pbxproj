@@ -1,0 +1,605 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BD11CA9C21BA33E50053ECC4 /* READ.rtf in Resources */ = {isa = PBXBuildFile; fileRef = BD11CA9B21BA33E50053ECC4 /* READ.rtf */; };
+		BD11CA9E21BA346F0053ECC4 /* DESIGN.rtf in Resources */ = {isa = PBXBuildFile; fileRef = BD11CA9D21BA346F0053ECC4 /* DESIGN.rtf */; };
+		BD1F152B21B9AD6B0078BE86 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD1F152A21B9AD6B0078BE86 /* AppDelegate.swift */; };
+		BD1F153221B9AD6C0078BE86 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD1F153121B9AD6C0078BE86 /* Assets.xcassets */; };
+		BD1F153521B9AD6C0078BE86 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD1F153321B9AD6C0078BE86 /* LaunchScreen.storyboard */; };
+		BD1F154021B9AD6C0078BE86 /* EatgreenfinalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD1F153F21B9AD6C0078BE86 /* EatgreenfinalTests.swift */; };
+		BD1F154B21B9AD6C0078BE86 /* EatgreenfinalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD1F154A21B9AD6C0078BE86 /* EatgreenfinalUITests.swift */; };
+		BD1F155A21B9ADCA0078BE86 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD1F155821B9ADCA0078BE86 /* Main.storyboard */; };
+		BD1F155C21B9AE080078BE86 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD1F155B21B9AE080078BE86 /* ViewController.swift */; };
+		BD1F155E21B9AE150078BE86 /* SecoundViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD1F155D21B9AE150078BE86 /* SecoundViewController.swift */; };
+		BD1F156021B9B05A0078BE86 /* Envi3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BD1F155F21B9B05A0078BE86 /* Envi3.jpg */; };
+		BD1F156621B9ED550078BE86 /* images-2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = BD1F156521B9ED550078BE86 /* images-2.jpeg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BD1F153C21B9AD6C0078BE86 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD1F151F21B9AD6B0078BE86 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BD1F152621B9AD6B0078BE86;
+			remoteInfo = Eatgreenfinal;
+		};
+		BD1F154721B9AD6C0078BE86 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD1F151F21B9AD6B0078BE86 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BD1F152621B9AD6B0078BE86;
+			remoteInfo = Eatgreenfinal;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BD11CA9B21BA33E50053ECC4 /* READ.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; name = READ.rtf; path = ../../../../Desktop/Eatgreen2/Eatgreen2/READ.rtf; sourceTree = "<group>"; };
+		BD11CA9D21BA346F0053ECC4 /* DESIGN.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; name = DESIGN.rtf; path = ../../../../Desktop/Eatgreen2/Eatgreen2/DESIGN.rtf; sourceTree = "<group>"; };
+		BD1F152721B9AD6B0078BE86 /* Eatgreenfinal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Eatgreenfinal.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD1F152A21B9AD6B0078BE86 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BD1F153121B9AD6C0078BE86 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BD1F153421B9AD6C0078BE86 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BD1F153621B9AD6C0078BE86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD1F153B21B9AD6C0078BE86 /* EatgreenfinalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EatgreenfinalTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD1F153F21B9AD6C0078BE86 /* EatgreenfinalTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EatgreenfinalTests.swift; sourceTree = "<group>"; };
+		BD1F154121B9AD6C0078BE86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD1F154621B9AD6C0078BE86 /* EatgreenfinalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EatgreenfinalUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD1F154A21B9AD6C0078BE86 /* EatgreenfinalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EatgreenfinalUITests.swift; sourceTree = "<group>"; };
+		BD1F154C21B9AD6C0078BE86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD1F155921B9ADCA0078BE86 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = ../../../../Desktop/Eatgreen2/Eatgreen2/Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BD1F155B21B9AE080078BE86 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = ../../../../Desktop/Eatgreen2/Eatgreen2/ViewController.swift; sourceTree = "<group>"; };
+		BD1F155D21B9AE150078BE86 /* SecoundViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SecoundViewController.swift; path = ../../../../Desktop/Eatgreen2/Eatgreen2/SecoundViewController.swift; sourceTree = "<group>"; };
+		BD1F155F21B9B05A0078BE86 /* Envi3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Envi3.jpg; path = ../../../../Downloads/Envi3.jpg; sourceTree = "<group>"; };
+		BD1F156521B9ED550078BE86 /* images-2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "images-2.jpeg"; path = "../../../../Downloads/images-2.jpeg"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BD1F152421B9AD6B0078BE86 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD1F153821B9AD6C0078BE86 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD1F154321B9AD6C0078BE86 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BD1F151E21B9AD6B0078BE86 = {
+			isa = PBXGroup;
+			children = (
+				BD1F152921B9AD6B0078BE86 /* Eatgreenfinal */,
+				BD1F153E21B9AD6C0078BE86 /* EatgreenfinalTests */,
+				BD1F154921B9AD6C0078BE86 /* EatgreenfinalUITests */,
+				BD1F152821B9AD6B0078BE86 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BD1F152821B9AD6B0078BE86 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BD1F152721B9AD6B0078BE86 /* Eatgreenfinal.app */,
+				BD1F153B21B9AD6C0078BE86 /* EatgreenfinalTests.xctest */,
+				BD1F154621B9AD6C0078BE86 /* EatgreenfinalUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BD1F152921B9AD6B0078BE86 /* Eatgreenfinal */ = {
+			isa = PBXGroup;
+			children = (
+				BD1F152A21B9AD6B0078BE86 /* AppDelegate.swift */,
+				BD1F153121B9AD6C0078BE86 /* Assets.xcassets */,
+				BD11CA9B21BA33E50053ECC4 /* READ.rtf */,
+				BD1F153321B9AD6C0078BE86 /* LaunchScreen.storyboard */,
+				BD11CA9D21BA346F0053ECC4 /* DESIGN.rtf */,
+				BD1F155B21B9AE080078BE86 /* ViewController.swift */,
+				BD1F156521B9ED550078BE86 /* images-2.jpeg */,
+				BD1F153621B9AD6C0078BE86 /* Info.plist */,
+				BD1F155821B9ADCA0078BE86 /* Main.storyboard */,
+				BD1F155F21B9B05A0078BE86 /* Envi3.jpg */,
+				BD1F155D21B9AE150078BE86 /* SecoundViewController.swift */,
+			);
+			path = Eatgreenfinal;
+			sourceTree = "<group>";
+		};
+		BD1F153E21B9AD6C0078BE86 /* EatgreenfinalTests */ = {
+			isa = PBXGroup;
+			children = (
+				BD1F153F21B9AD6C0078BE86 /* EatgreenfinalTests.swift */,
+				BD1F154121B9AD6C0078BE86 /* Info.plist */,
+			);
+			path = EatgreenfinalTests;
+			sourceTree = "<group>";
+		};
+		BD1F154921B9AD6C0078BE86 /* EatgreenfinalUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BD1F154A21B9AD6C0078BE86 /* EatgreenfinalUITests.swift */,
+				BD1F154C21B9AD6C0078BE86 /* Info.plist */,
+			);
+			path = EatgreenfinalUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BD1F152621B9AD6B0078BE86 /* Eatgreenfinal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD1F154F21B9AD6C0078BE86 /* Build configuration list for PBXNativeTarget "Eatgreenfinal" */;
+			buildPhases = (
+				BD1F152321B9AD6B0078BE86 /* Sources */,
+				BD1F152421B9AD6B0078BE86 /* Frameworks */,
+				BD1F152521B9AD6B0078BE86 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Eatgreenfinal;
+			productName = Eatgreenfinal;
+			productReference = BD1F152721B9AD6B0078BE86 /* Eatgreenfinal.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BD1F153A21B9AD6C0078BE86 /* EatgreenfinalTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD1F155221B9AD6C0078BE86 /* Build configuration list for PBXNativeTarget "EatgreenfinalTests" */;
+			buildPhases = (
+				BD1F153721B9AD6C0078BE86 /* Sources */,
+				BD1F153821B9AD6C0078BE86 /* Frameworks */,
+				BD1F153921B9AD6C0078BE86 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BD1F153D21B9AD6C0078BE86 /* PBXTargetDependency */,
+			);
+			name = EatgreenfinalTests;
+			productName = EatgreenfinalTests;
+			productReference = BD1F153B21B9AD6C0078BE86 /* EatgreenfinalTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BD1F154521B9AD6C0078BE86 /* EatgreenfinalUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD1F155521B9AD6C0078BE86 /* Build configuration list for PBXNativeTarget "EatgreenfinalUITests" */;
+			buildPhases = (
+				BD1F154221B9AD6C0078BE86 /* Sources */,
+				BD1F154321B9AD6C0078BE86 /* Frameworks */,
+				BD1F154421B9AD6C0078BE86 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BD1F154821B9AD6C0078BE86 /* PBXTargetDependency */,
+			);
+			name = EatgreenfinalUITests;
+			productName = EatgreenfinalUITests;
+			productReference = BD1F154621B9AD6C0078BE86 /* EatgreenfinalUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BD1F151F21B9AD6B0078BE86 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "John Tucker";
+				TargetAttributes = {
+					BD1F152621B9AD6B0078BE86 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					BD1F153A21B9AD6C0078BE86 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = BD1F152621B9AD6B0078BE86;
+					};
+					BD1F154521B9AD6C0078BE86 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = BD1F152621B9AD6B0078BE86;
+					};
+				};
+			};
+			buildConfigurationList = BD1F152221B9AD6B0078BE86 /* Build configuration list for PBXProject "Eatgreenfinal" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BD1F151E21B9AD6B0078BE86;
+			productRefGroup = BD1F152821B9AD6B0078BE86 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BD1F152621B9AD6B0078BE86 /* Eatgreenfinal */,
+				BD1F153A21B9AD6C0078BE86 /* EatgreenfinalTests */,
+				BD1F154521B9AD6C0078BE86 /* EatgreenfinalUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BD1F152521B9AD6B0078BE86 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD1F155A21B9ADCA0078BE86 /* Main.storyboard in Resources */,
+				BD1F156021B9B05A0078BE86 /* Envi3.jpg in Resources */,
+				BD11CA9C21BA33E50053ECC4 /* READ.rtf in Resources */,
+				BD1F153521B9AD6C0078BE86 /* LaunchScreen.storyboard in Resources */,
+				BD1F156621B9ED550078BE86 /* images-2.jpeg in Resources */,
+				BD1F153221B9AD6C0078BE86 /* Assets.xcassets in Resources */,
+				BD11CA9E21BA346F0053ECC4 /* DESIGN.rtf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD1F153921B9AD6C0078BE86 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD1F154421B9AD6C0078BE86 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BD1F152321B9AD6B0078BE86 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD1F155E21B9AE150078BE86 /* SecoundViewController.swift in Sources */,
+				BD1F155C21B9AE080078BE86 /* ViewController.swift in Sources */,
+				BD1F152B21B9AD6B0078BE86 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD1F153721B9AD6C0078BE86 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD1F154021B9AD6C0078BE86 /* EatgreenfinalTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD1F154221B9AD6C0078BE86 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD1F154B21B9AD6C0078BE86 /* EatgreenfinalUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BD1F153D21B9AD6C0078BE86 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BD1F152621B9AD6B0078BE86 /* Eatgreenfinal */;
+			targetProxy = BD1F153C21B9AD6C0078BE86 /* PBXContainerItemProxy */;
+		};
+		BD1F154821B9AD6C0078BE86 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BD1F152621B9AD6B0078BE86 /* Eatgreenfinal */;
+			targetProxy = BD1F154721B9AD6C0078BE86 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BD1F153321B9AD6C0078BE86 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD1F153421B9AD6C0078BE86 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		BD1F155821B9ADCA0078BE86 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD1F155921B9ADCA0078BE86 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BD1F154D21B9AD6C0078BE86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BD1F154E21B9AD6C0078BE86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BD1F155021B9AD6C0078BE86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Eatgreenfinal/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "John-Tucker.Eatgreenfinal";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BD1F155121B9AD6C0078BE86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Eatgreenfinal/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "John-Tucker.Eatgreenfinal";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BD1F155321B9AD6C0078BE86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EatgreenfinalTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "John-Tucker.EatgreenfinalTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Eatgreenfinal.app/Eatgreenfinal";
+			};
+			name = Debug;
+		};
+		BD1F155421B9AD6C0078BE86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EatgreenfinalTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "John-Tucker.EatgreenfinalTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Eatgreenfinal.app/Eatgreenfinal";
+			};
+			name = Release;
+		};
+		BD1F155621B9AD6C0078BE86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EatgreenfinalUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "John-Tucker.EatgreenfinalUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Eatgreenfinal;
+			};
+			name = Debug;
+		};
+		BD1F155721B9AD6C0078BE86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EatgreenfinalUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "John-Tucker.EatgreenfinalUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Eatgreenfinal;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BD1F152221B9AD6B0078BE86 /* Build configuration list for PBXProject "Eatgreenfinal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD1F154D21B9AD6C0078BE86 /* Debug */,
+				BD1F154E21B9AD6C0078BE86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD1F154F21B9AD6C0078BE86 /* Build configuration list for PBXNativeTarget "Eatgreenfinal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD1F155021B9AD6C0078BE86 /* Debug */,
+				BD1F155121B9AD6C0078BE86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD1F155221B9AD6C0078BE86 /* Build configuration list for PBXNativeTarget "EatgreenfinalTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD1F155321B9AD6C0078BE86 /* Debug */,
+				BD1F155421B9AD6C0078BE86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD1F155521B9AD6C0078BE86 /* Build configuration list for PBXNativeTarget "EatgreenfinalUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD1F155621B9AD6C0078BE86 /* Debug */,
+				BD1F155721B9AD6C0078BE86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BD1F151F21B9AD6B0078BE86 /* Project object */;
+}
