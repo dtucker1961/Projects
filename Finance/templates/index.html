@@ -1,0 +1,59 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Finance: Buy
+{% endblock %}
+
+{% block main %}
+        <title>C$50 Finance:
+    Portfolio
+{# Creates index table #}
+</title>
+        <main class="container p-5">
+
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>Symbol</th>
+                <th>Name</th>
+                <th>Shares</th>
+                <th>Price</th>
+                <th>TOTAL</th>
+            </tr>
+        </thead>
+        <tfoot>
+            <tr>
+                <td colspan="4"></td>
+                <td>{{ completetotal | usd}}</td>
+            </tr>
+        </tfoot>
+        <tbody>
+
+        {% for stock in stocks %}
+            <tr>
+                <td>
+                    {{ stock["symbol"] }}
+                </td>
+                <td>
+                    {{ stock["name"] }}
+                </td>
+                <td>
+                    {{ stock["SUM(shares)"] }}
+                </td>
+                <td>
+                    {{ stock["price"] | usd }}
+                </td>
+                <td>
+                    {{ stock["SUM(total)"] | usd}}
+                </td>
+            </tr>
+        {% endfor %}
+            <tr>
+                <td colspan="4" style="text-align: left;" >CASH</td>
+                <td>{{ money | usd}}</td>
+            </tr>
+        </tbody>
+    </table>
+
+
+{% endblock %}
