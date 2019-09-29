@@ -1,1 +1,1 @@
-asdf
+Finance website built with python [using Flask] that requests information from an API for current stock prices and that registers users in a database [stores their username, password, current stockholdings, and the user’s overall current wealth]. Javascript and Ajax used to give instant feedback to user about whether username is already taken when registering. 
